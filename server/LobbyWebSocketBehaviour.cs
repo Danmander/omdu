@@ -44,7 +44,7 @@ namespace OmduLobby
 
             if (Lobby.Singleton.IsHost(ID) && message.Type == "update-battleground")
             {
-                Lobby.Singleton.BattlegroundId = int.Parse(message.Value);
+                Lobby.Singleton.BattlegroundId = message.Value == null ? null : int.Parse(message.Value);
             }
             else if (message.Type == "update-loadout")
             {
