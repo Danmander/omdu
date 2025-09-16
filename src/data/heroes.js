@@ -2453,17 +2453,17 @@ const heroes = Object.freeze([
         },
         skins: [
             {
-                id: 93,
+                id: 94,
                 name: "Rage of the Forge",
                 image: "images/heroes/Temper.webp"
             },
             {
-                id: 94,
+                id: 95,
                 name: "Forged Fury",
                 image: "images/skins/Temper_Forged_Fury_background.webp"
             },
             {
-                id: 95,
+                id: 96,
                 name: "Prized Cow",
                 image: "images/skins/Temper_Prized_Cow_background.webp"
             },
